@@ -1,6 +1,6 @@
 package algorithms
 
-import com.github.tototoshi.base64.Base64.encode
+//import com.github.tototoshi.base64.Base64.encode
 import java.io._
 import java.nio.ByteBuffer._
 import java.nio.channels.Channels._
