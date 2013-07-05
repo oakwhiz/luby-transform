@@ -82,7 +82,7 @@ class LubyTransformSpec extends FlatSpec with ShouldMatchers {
         waitForAll(distribution, numerals.toList)
     }
 
-	"A Luby Transform" should "calculate the chink size" in {
+	"A Luby Transform" should "calculate the chunk size" in {
         LubyTransform.calculateChunkCount(10, 10) should equal (1)
         LubyTransform.calculateChunkCount(10, 1) should equal (10)
         LubyTransform.calculateChunkCount(113, 5) should equal (23)
