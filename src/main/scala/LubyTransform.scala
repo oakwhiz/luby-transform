@@ -10,6 +10,9 @@ import scala.collection.immutable.Stream._
 import scala.collection.mutable.IndexedSeq
 import scala.util.Random
 
+import scala.language.implicitConversions
+import scala.language.postfixOps
+
 case class Block (val seed: Int, val size: Int, val chunk: Int, val data: Array[Byte])
 
 case class PreparedBlock (val chunks: List[Int], val data: Array[Byte])
